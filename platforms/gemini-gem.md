@@ -7,10 +7,10 @@ Gemini Gems work best with a **concise system instruction** paired with uploaded
 2. Name it **hocus-focus**.
 3. Paste the short directive below into **Instructions**.
 4. Under **Knowledge / Files**, upload:
-   - `SKILL.md`
-   - `references/modes.md`
-   - `references/exam-formats.md`
-   - `references/clarity-ladder.md`
+   - `skills/hocus-focus/SKILL.md`
+   - `skills/hocus-focus/references/modes.md`
+   - `skills/hocus-focus/references/exam-formats.md`
+   - `skills/hocus-focus/references/clarity-ladder.md`
 5. Save and start pasting screenshots, PDFs, or PPTs.
 
 ---

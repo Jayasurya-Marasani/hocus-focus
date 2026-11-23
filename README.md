@@ -59,11 +59,20 @@ Pick any mode — or combine them (e.g., `diagram + exam`, `quick + compare`). *
 ## 30-Second Setup
 
 ### 1. Agentic CLI & IDE Tools (Claude Code, Codex, Gemini CLI, Cursor, Antigravity)
-Install directly from GitHub via the Agent Skills CLI:
+
+**Option A — Universal Agent Skills CLI (`skills.sh`):**
 ```bash
 npx skills add Jayasurya-Marasani/hocus-focus
 ```
-Or clone/copy this folder into your agent's skills directory (for example `~/.claude/skills/hocus-focus/`, `~/.codex/skills/hocus-focus/`, or `.gemini/skills/hocus-focus/`).
+
+**Option B — Claude Code Plugin Marketplace:**
+```bash
+/plugin marketplace add Jayasurya-Marasani/hocus-focus
+/plugin install hocus-focus@hocus-focus
+```
+
+**Option C — Manual Drop-In:**
+Copy `skills/hocus-focus/` into your agent's skills directory (for example `~/.claude/skills/hocus-focus/`, `~/.codex/skills/hocus-focus/`, or `~/.gemini/skills/hocus-focus/`).
 
 ### 2. Web Chat LLMs (No Terminal Needed)
 Use the ready-to-paste presets in [`platforms/`](./platforms/):
@@ -78,11 +87,16 @@ Use the ready-to-paste presets in [`platforms/`](./platforms/):
 
 ```text
 hocus-focus/
-├── SKILL.md                      # Agent Skills open-standard entrypoint
-├── references/
-│   ├── modes.md                  # Core & on-demand study mode specs
-│   ├── exam-formats.md           # Short-answer, derivations/math, & essay rules
-│   └── clarity-ladder.md         # Karpathy 4-level ladder (STE100, Diagram, HTML, Video)
+├── .claude-plugin/
+│   ├── marketplace.json          # Claude Code plugin marketplace manifest
+│   └── plugin.json               # Claude Code plugin manifest
+├── skills/
+│   └── hocus-focus/
+│       ├── SKILL.md              # Agent Skills open-standard entrypoint
+│       └── references/
+│           ├── modes.md          # Core & on-demand study mode specs
+│           ├── exam-formats.md   # Short-answer, derivations/math, & essay rules
+│           └── clarity-ladder.md # Karpathy 4-level ladder (STE100, Diagram, HTML, Video)
 ├── platforms/
 │   ├── chatgpt-custom-gpt.md     # ChatGPT Custom GPT / Custom Instructions
 │   ├── gemini-gem.md             # Gemini Gem setup & directive

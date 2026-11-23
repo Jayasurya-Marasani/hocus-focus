@@ -4,7 +4,7 @@
 1. Go to **Explore GPTs -> Create -> Configure**.
 2. Name it **hocus-focus**.
 3. Paste the block below into **Instructions** (~2,600 characters — well within ChatGPT's 8,000-character limit).
-4. *(Optional)* Upload `SKILL.md` and the `references/` files under **Knowledge** for full reference fidelity.
+4. *(Optional)* Upload `skills/hocus-focus/SKILL.md` and the `skills/hocus-focus/references/` files under **Knowledge** for full reference fidelity.
 
 ## Option B: ChatGPT Custom Instructions (Free & Plus)
 Paste the block below into **Settings -> Personalization -> Custom Instructions** when studying for exams.

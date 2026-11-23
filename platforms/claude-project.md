@@ -6,10 +6,10 @@ Claude Projects natively supports uploading `SKILL.md` and `references/` as Proj
 1. Open **Claude.ai -> Projects -> Create Project**.
 2. Name it **hocus-focus**.
 3. Upload these files to **Project Knowledge**:
-   - `SKILL.md`
-   - `references/modes.md`
-   - `references/exam-formats.md`
-   - `references/clarity-ladder.md`
+   - `skills/hocus-focus/SKILL.md`
+   - `skills/hocus-focus/references/modes.md`
+   - `skills/hocus-focus/references/exam-formats.md`
+   - `skills/hocus-focus/references/clarity-ladder.md`
 4. Paste the short directive below into **Project Instructions**.
 
 ---

@@ -1,0 +1,20 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "hocus-focus",
+  "description": "Exam-focused study skill that distills screenshots, PDFs, PPTs, and lecture slides into brief, concise, strictly source-grounded explanations.",
+  "owner": {
+    "name": "Jayasurya Marasani"
+  },
+  "plugins": [
+    {
+      "name": "hocus-focus",
+      "version": "1.0.0",
+      "description": "Distill slides, screenshots, and PDFs into brief, exam-ready explanations with user-selectable modes (exam, quick, deep, compare, feynman, flashcards, quiz) and Karpathy's 4-level clarity ladder (ASD-STE100, diagrams, interactive HTML, Manim video).",
+      "author": {
+        "name": "Jayasurya Marasani"
+      },
+      "category": "productivity",
+      "source": "./"
+    }
+  ]
+}

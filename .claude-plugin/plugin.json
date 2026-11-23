@@ -1,0 +1,10 @@
+{
+  "name": "hocus-focus",
+  "version": "1.0.0",
+  "description": "Exam-focused study skill that distills screenshots, PDFs, PPTs, and lecture slides into brief, concise, strictly source-grounded explanations.",
+  "author": {
+    "name": "Jayasurya Marasani"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/Jayasurya-Marasani/hocus-focus"
+}
